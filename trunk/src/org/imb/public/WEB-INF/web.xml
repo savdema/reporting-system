@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" version="2.4">
+	<servlet>
+		<servlet-name>reportingSystemServiceServlet</servlet-name>
+		<servlet-class>org.imb.server.ReportingSystemServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>reportingSystemServiceServlet</servlet-name>
+		<url-pattern>/reportingSystemService</url-pattern>
+	</servlet-mapping>
+	<!-- Added resource-ref to define the db connection -->
+	<resource-ref>
+		<res-ref-name>jdbc/MyDataSource</res-ref-name>
+    	<res-type>javax.sql.DataSource</res-type>
+    	<res-auth>Container</res-auth>
+    	<res-sharing-scope>Shareable</res-sharing-scope>
+  	</resource-ref>	 
+	<welcome-file-list>
+		<welcome-file>
+			ReportingSystem.html
+		</welcome-file>
+	</welcome-file-list>
+</web-app>

@@ -1,0 +1,18 @@
+<web-app xmlns="http://geronimo.apache.org/xml/ns/j2ee/web-1.1">
+	<environment>
+		<moduleId>
+			<artifactId>ReportingSystem</artifactId>
+		</moduleId>
+		<dependencies>
+			<dependency>
+				<groupId>console.dbpool</groupId>
+				<artifactId>ReportingSystem-db</artifactId>
+			</dependency>
+		</dependencies>
+	</environment>
+	<context-root>/servlet/reportingsystem</context-root>
+	<resource-ref>
+		<ref-name>jdbc/MyDataSource</ref-name>
+		<resource-link>ReportingSystem-db</resource-link>
+	</resource-ref>
+</web-app>

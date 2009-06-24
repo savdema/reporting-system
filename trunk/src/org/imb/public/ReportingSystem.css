@@ -1,0 +1,109 @@
+/** Add css rules here for your application. */
+/*
+body {
+//  font-family:arial,sans-serif
+}
+*/
+
+div,td {
+//  color:#000000
+}
+
+a:link {
+//  color:#0000cc
+}
+     
+a:visited {
+//  color:#551a8b
+}
+
+a:active {
+//  color:#ff0000
+}
+
+button {
+  display: block;
+  font-size: 16pt
+}
+
+.widePanel {
+  width: 100%
+}
+
+img {
+  
+}
+
+.RateItWidget {
+  cursor: pointer;
+}
+
+.RateItWidget img {
+  width : 20px; 
+  height: 20px; 
+}
+
+.preview {
+	background-color: #EEEECC;
+}
+
+.gwt-DialogBox{  }
+.gwt-DialogBox.Caption{  }
+.gwt-DialogBox.dialogContent{  }
+.gwt-DialogBox.dialogTopLeft{  }
+.gwt-DialogBox.dialogTopLeftInner{  }
+.gwt-DialogBox.dialogTopCenter{  }
+.gwt-DialogBox.dialogTopCenterInner{  }
+.gwt-DialogBox.dialogTopRight{  }
+.gwt-DialogBox.dialogTopRightInner{  }
+.gwt-DialogBox.dialogMiddleLeft{  }
+.gwt-DialogBox.dialogMiddleLeftInner{  }
+.gwt-DialogBox.dialogMiddleCenter{  }
+.gwt-DialogBox.dialogMiddleCenterInner{  }
+.gwt-DialogBox.dialogMiddleRight{  }
+.gwt-DialogBox.dialogMiddleRightInner{  }
+.gwt-DialogBox.dialogBottomLeft{  }
+.gwt-DialogBox.dialogBottomLeftInner{  }
+.gwt-DialogBox.dialogBottomCenter{  }
+.gwt-DialogBox.dialogBottomCenterInner{  }
+.gwt-DialogBox.dialogBottomRight{  }
+.gwt-DialogBox.dialogBottomRightInner{  }
+
+.gwt-GlassPanel {
+
+    /* Override glass panel color to be `green` */
+    background-color: grey !important;
+
+    /* Override glass panel to 10% opacity (= 90% transparency) */
+    filter: alpha(opacity = 30) !important; /* IE */
+    opacity: 0.3 !important; /* non-IE */
+
+    /*
+      NOTE: Please do NOT use either CSS 'width' or 'height' here, as
+      this would defeat much of the effort that went into GlassPanel
+      in order to get it to work consistently in a variety of
+      circumstances. Specifically, please resist the urge to use
+      'width/height: 100%' or similar constructs.
+    */
+  }
+  
+  .tooltip{
+  	background-color:#EFEFEF;
+	opacity:0.95;
+	padding:5px;
+	border:1pt solid #BCBCBC;
+	font:0.7em/1em arial, sans-serif;
+  }
+
+  .gwt-DialogBox .Caption {
+		font-size:16px;
+	}
+	
+	.csvexport{
+	white-space:nowrap;
+	}
+
+	.rp_admin_pagebreak{
+		height:45px;
+		padding:14px 0 0;
+	}
